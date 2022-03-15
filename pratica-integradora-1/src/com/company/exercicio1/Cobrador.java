@@ -1,6 +1,6 @@
-package com.company;
+package com.company.exercicio1;
 
-public class Basico {
+public class Cobrador {
     public void deposito() {
         Deposito d = new Deposito();
         d.transacaoNaoOk();
@@ -18,7 +18,7 @@ public class Basico {
 
     public void pagamentoDeServico() {
         PagamentoDeServico pds = new PagamentoDeServico();
-        pds.transacaoOk();
+        pds.transacaoNaoOk();
     }
 
     public void saqueEmDinheiro() {

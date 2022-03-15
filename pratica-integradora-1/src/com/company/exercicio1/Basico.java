@@ -1,28 +1,28 @@
-package com.company;
+package com.company.exercicio1;
 
-public class Executivo {
+public class Basico {
     public void deposito() {
         Deposito d = new Deposito();
-        d.transacaoOk();
+        d.transacaoNaoOk();
     }
 
     public void transferencia() {
         Transferencia t = new Transferencia();
-        t.transacaoOk();
+        t.transacaoNaoOk();
     }
 
     public void consultaDeSaldo() {
         ConsultaDeSaldo cds = new ConsultaDeSaldo();
-        cds.transacaoNaoOk();
+        cds.transacaoOk();
     }
 
     public void pagamentoDeServico() {
         PagamentoDeServico pds = new PagamentoDeServico();
-        pds.transacaoNaoOk();
+        pds.transacaoOk();
     }
 
     public void saqueEmDinheiro() {
         saqueEmDinheiro sed = new saqueEmDinheiro();
-        sed.transacaoNaoOk();
+        sed.transacaoOk();
     }
 }

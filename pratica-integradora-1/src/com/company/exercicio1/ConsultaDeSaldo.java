@@ -1,4 +1,4 @@
-package com.company;
+package com.company.exercicio1;
 
 public class ConsultaDeSaldo implements transacao {
     @Override

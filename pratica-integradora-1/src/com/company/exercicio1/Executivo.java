@@ -1,19 +1,19 @@
-package com.company;
+package com.company.exercicio1;
 
-public class Cobrador {
+public class Executivo {
     public void deposito() {
         Deposito d = new Deposito();
-        d.transacaoNaoOk();
+        d.transacaoOk();
     }
 
     public void transferencia() {
         Transferencia t = new Transferencia();
-        t.transacaoNaoOk();
+        t.transacaoOk();
     }
 
     public void consultaDeSaldo() {
         ConsultaDeSaldo cds = new ConsultaDeSaldo();
-        cds.transacaoOk();
+        cds.transacaoNaoOk();
     }
 
     public void pagamentoDeServico() {
@@ -23,6 +23,6 @@ public class Cobrador {
 
     public void saqueEmDinheiro() {
         saqueEmDinheiro sed = new saqueEmDinheiro();
-        sed.transacaoOk();
+        sed.transacaoNaoOk();
     }
 }
